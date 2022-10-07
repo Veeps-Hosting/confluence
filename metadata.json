@@ -1,0 +1,64 @@
+{
+  "name": "veepshosting-confluence",
+  "version": "4.0.2",
+  "author": "Veeps Hosting",
+  "summary": "Install atlassian confluence",
+  "license": "MIT",
+  "source": "https://github.com//Veeps-Hosting/veepshosting-confluence.git",
+  "project_page": "https://github.com//Veeps-Hosting/veepshosting-confluence",
+  "issues_url": "https://github.com//Veeps-Hosting/veepshosting-confluence/issues",
+  "dependencies": [
+    {
+      "name": "puppet/archive",
+      "version_requirement": ">= 1.0.0 < 6.0.0"
+    },
+    {
+      "name": "puppet/mysql_java_connector",
+      "version_requirement": ">= 3.0.2 < 5.0.0"
+    },
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 4.13.1 < 9.0.0"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "16.04",
+        "18.04",
+        "20.04"
+      ]
+    },
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "9"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 6.1.0 < 8.0.0"
+    }
+  ],
+  "description": "Atlassian confluence",
+  "pdk-version": "2.5.0",
+  "template-url": "pdk-default#2.5.0",
+  "template-ref": "tags/2.5.0-0-g369d483"
+}
